@@ -1,0 +1,4 @@
+# The author's own screen recordings (raw) and the videos edited from them
+demo/*.mkv
+out/final.mp4
+out/final_v2.mp4

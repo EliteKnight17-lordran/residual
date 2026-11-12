@@ -1,0 +1,41 @@
+VOICEOVER SCRIPT for out/final.mp4 (78 seconds, about 150 words)
+Not recorded yet. Times are where each line should start in the final video.
+Every line describes something that is on screen at that moment.
+
+0:00  (title card)
+What if a maths app showed you your wrong answer, drawn next to the right one?
+
+0:03  (prompt pasted and sent)
+This is the whole build prompt. I paste it into Claude Code, running inside the
+Antigravity IDE, and press send.
+
+0:10  (8x: agent starts)
+The agent checks the folder and starts thinking.
+
+0:12  (plan appears)
+About nine minutes in, it writes its plan.
+
+0:18  (8x: files being written)
+Then the maths file, with a catalogue of common student mistakes,
+
+0:26  (8x: test page, first run)
+and a test page. Its first test run reports a failed check.
+
+0:34  (usage limit)
+Here my usage limit stops the run.
+
+0:38  (resume message)
+After the reset I send one more message, "resume where you left off".
+
+0:46  (8x: reviewing screenshots)
+It reviews screenshots of its own app and patches what it finds,
+
+0:54  (ALL GROUPS PASS)
+until its test run comes back: all groups pass.
+
+1:00  (app in the browser)
+And here is Residual. I type a wrong answer, forty-two. The app draws my line
+beside the correct one and gives both numbers.
+
+1:15  (end card)
+Residual. One prompt, four topics.

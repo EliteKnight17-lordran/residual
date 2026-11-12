@@ -1,0 +1,134 @@
+{
+ "source": {
+  "file": "demo/2026-11-12 19-11-53.mkv",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60.0,
+  "frames": 237313,
+  "bytes": 8904037797,
+  "seconds": 3955.2166666666667
+ },
+ "timeline": [
+  {
+   "kind": "title",
+   "out_start": 0.0,
+   "out_end": 3.0,
+   "src_start": 0,
+   "src_end": 0,
+   "speed": 0,
+   "caption": "",
+   "skipped": ""
+  },
+  {
+   "kind": "prompt",
+   "out_start": 3.0,
+   "out_end": 10.0,
+   "src_start": 0.0,
+   "src_end": 7.0,
+   "speed": 1,
+   "caption": "The build prompt is pasted into Claude Code (model picker: Fable 5.2), running inside the Antigravity IDE, and sent.",
+   "skipped": ""
+  },
+  {
+   "kind": "run",
+   "out_start": 10.0,
+   "out_end": 12.0,
+   "src_start": 7.0,
+   "src_end": 23.0,
+   "speed": 8,
+   "caption": "The agent starts: it checks the folder and begins thinking.",
+   "skipped": ""
+  },
+  {
+   "kind": "run",
+   "out_start": 12.0,
+   "out_end": 18.0,
+   "src_start": 556.5,
+   "src_end": 562.5,
+   "speed": 1,
+   "caption": "About nine minutes later the agent writes its plan, PLAN.md.",
+   "skipped": "time skipped: 9 min"
+  },
+  {
+   "kind": "run",
+   "out_start": 18.0,
+   "out_end": 26.0,
+   "src_start": 780.0,
+   "src_end": 844.0,
+   "speed": 8,
+   "caption": "It writes the maths and mistake-catalog file, then smoke-tests it.",
+   "skipped": "time skipped: 4 min"
+  },
+  {
+   "kind": "run",
+   "out_start": 26.0,
+   "out_end": 34.0,
+   "src_start": 1325.0,
+   "src_end": 1389.0,
+   "speed": 8,
+   "caption": "It fixes a graph label, writes the test page and runs it. The first run reports a failed check.",
+   "skipped": "time skipped: 8 min"
+  },
+  {
+   "kind": "run",
+   "out_start": 34.0,
+   "out_end": 38.0,
+   "src_start": 2110.0,
+   "src_end": 2114.0,
+   "speed": 1,
+   "caption": "The account's 5-hour usage limit stops the run.",
+   "skipped": "time skipped: 12 min"
+  },
+  {
+   "kind": "resume",
+   "out_start": 38.0,
+   "out_end": 46.0,
+   "src_start": 2267.0,
+   "src_end": 2275.0,
+   "speed": 1,
+   "caption": "Recording was paused until the limit reset. A second message, 'resume where you left off', restarts the run.",
+   "skipped": "time skipped + recording paused"
+  },
+  {
+   "kind": "run",
+   "out_start": 46.0,
+   "out_end": 54.0,
+   "src_start": 2520.0,
+   "src_end": 2584.0,
+   "speed": 8,
+   "caption": "After resuming, the agent reviews screenshots of its own app and patches it.",
+   "skipped": "time skipped: 4 min"
+  },
+  {
+   "kind": "run",
+   "out_start": 54.0,
+   "out_end": 60.0,
+   "src_start": 2931.0,
+   "src_end": 2937.0,
+   "speed": 1,
+   "caption": "After more fixes, the agent's test run comes back: ALL GROUPS PASS.",
+   "skipped": "time skipped: 6 min"
+  },
+  {
+   "kind": "app",
+   "out_start": 60.0,
+   "out_end": 75.0,
+   "src_start": 3681.0,
+   "src_end": 3696.0,
+   "speed": 1,
+   "caption": "The finished app in a browser: a wrong answer, 42, is checked and drawn beside the correct one.",
+   "skipped": "time skipped: 12 min"
+  },
+  {
+   "kind": "end",
+   "out_start": 75.0,
+   "out_end": 78.0,
+   "src_start": 0,
+   "src_end": 0,
+   "speed": 0,
+   "caption": "",
+   "skipped": ""
+  }
+ ],
+ "seconds": 78.0
+}

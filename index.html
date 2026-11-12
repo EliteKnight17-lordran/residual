@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residual</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="test-panel" hidden></div>
+
+<div id="app">
+  <header class="top">
+    <div class="brand">
+      <h1>Residual</h1>
+      <p id="tagline"></p>
+    </div>
+    <button type="button" id="lang" class="btn"></button>
+  </header>
+
+  <nav id="topics"></nav>
+
+  <main>
+    <section class="card" id="explore">
+      <h2 id="topic-title"></h2>
+      <p id="topic-story"></p>
+      <p id="example-note" class="fine"></p>
+
+      <div id="graphs">
+        <figure>
+          <canvas id="cv-main" role="img"></canvas>
+          <ul class="notes" id="notes-main"></ul>
+        </figure>
+        <figure id="fig-second" hidden>
+          <canvas id="cv-second" role="img"></canvas>
+          <ul class="notes" id="notes-second"></ul>
+        </figure>
+      </div>
+      <p id="link-summary" class="caption" hidden></p>
+
+      <div id="sliders"></div>
+      <div id="extras"></div>
+    </section>
+
+    <div class="col" id="question-col">
+      <section class="card" id="ask">
+        <h2 id="ask-title"></h2>
+        <div id="qtabs" role="group"></div>
+        <p id="prompt"></p>
+        <form id="answer-form" novalidate>
+          <div id="answer-area"></div>
+          <button type="submit" id="check" class="btn primary"></button>
+        </form>
+        <p id="msg" role="alert"></p>
+        <button type="button" id="reset" class="btn"></button>
+      </section>
+
+      <section class="card" id="compare" hidden>
+        <p id="caption" class="caption" tabindex="-1"></p>
+        <div class="pair">
+          <figure class="you">
+            <figcaption id="cap-you"></figcaption>
+            <canvas id="cv-you" role="img"></canvas>
+            <ul class="notes" id="notes-you"></ul>
+          </figure>
+          <figure class="ok">
+            <figcaption id="cap-ok"></figcaption>
+            <canvas id="cv-ok" role="img"></canvas>
+            <ul class="notes" id="notes-ok"></ul>
+          </figure>
+        </div>
+        <p id="step-count" class="fine"></p>
+        <p id="step-text"></p>
+        <div id="replay" role="group">
+          <button type="button" id="back" class="btn"></button>
+          <button type="button" id="play" class="btn primary"></button>
+          <button type="button" id="pause" class="btn"></button>
+          <button type="button" id="next" class="btn"></button>
+          <label class="speed"><span id="speed-label"></span>
+            <select id="speed">
+              <option value="0.5"></option>
+              <option value="1" selected></option>
+              <option value="2"></option>
+            </select>
+          </label>
+        </div>
+        <p id="keys" class="fine"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p id="scope" class="fine"></p>
+  </footer>
+</div>
+
+<script src="js/math.js"></script>
+<script src="js/draw.js"></script>
+<script src="js/app.js"></script>
+<script src="js/tests.js"></script>
+</body>
+</html>
